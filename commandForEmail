@@ -1,0 +1,1 @@
+echo "Test body" | mutt -s "Sub TEst" -a "number_of_entries" -- rockgymdata@gmail.com
