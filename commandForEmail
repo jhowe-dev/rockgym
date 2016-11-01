@@ -1,1 +1,2 @@
-echo "Test body" | mutt -s "Sub TEst" -a "number_of_entries" -- rockgymdata@gmail.com
+#!/bin/bash
+echo "Test body" | mutt -s "Sub TEst" -a $1 -- rockgymdata@gmail.com && mv numb/* num/ && echo "sent"
